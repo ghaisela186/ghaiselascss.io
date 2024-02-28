@@ -1,0 +1,139 @@
+* {
+    font-family: sans-serif;
+  }
+  .container {
+    display: inline-block;
+    margin-left: 250px;
+    margin-top: 45px;
+  }
+  .content-left {
+    img {
+      position: relative;
+      z-index: 5;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px black;
+      padding: 3px 3px;
+      margin-left: -15px;
+    }
+  }
+  .content-right {
+    background-color: #f6ebda;
+    height: 450px;
+    width: 1349px;
+    margin-top: -400px;
+    margin-left: -258px;
+  }
+  .navbar {
+    .h1 {
+      margin-left: 640px;
+      margin-top: 80px;
+      position: absolute;
+      font-size: 25px;
+      font-family: sans-serif;
+      font-weight: bold;
+    }
+    .h1 span {
+      display: inline;
+      border-bottom: 3px orange;
+    }
+    .h2 {
+      margin-left: 640px;
+      margin-top: 135px;
+      position: absolute;
+    }
+    .h3 {
+      margin-top: 170px;
+      margin-left: 640px;
+      position: absolute;
+      font-size: 17px;
+    }
+    .btn1 {
+      background-color: #2f2105; /* Warna latar belakang */
+      color: #bb7c06; /* Warna teks */
+      padding: 10px 20px; /* Padding */
+      border-radius: 20px;
+      margin-left: 640px;
+      margin-top: 280px;
+    }
+  }
+  .h {
+    margin-top: 150px;
+    margin-left: 100px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 25px;
+  }
+  .bg img {
+    width: 100%;
+    filter: invert(80%) sepia(57%) saturate(300%) hue-rotate(20deg) brightness(107%) contrast(92%);
+    margin-top: -402px;
+    position: absolute;
+    z-index: 2;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 93%);
+    margin-left: -260px;
+    opacity: 76%;
+  }
+  .flex {
+    display: flex;
+    .card2 {
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px 15px;
+      margin-left: 85px;
+      margin-top: 30px;
+    }
+    .card2 img {
+      width: 100%;
+      height: auto;
+      border-bottom: 1px solid #ccc;
+      border-radius: 10px;
+    }
+    .card2-content h2 {
+      position: relative;
+      z-index: 5;
+      font-size: 20px;
+      margin-top: 150px;
+    }
+    .card2-content h2 span {
+      font-size: 20px;
+    }
+    .text-overlayy {
+      position: relative;
+      left: 90%;
+      transform: translate(-50%, -50%);
+      color: #fff; /* Warna teks */
+      font-size: 18px;
+      font-weight: bold;
+      z-index: 5;
+    }
+    .rectanglee {
+      width: 80px;
+      height: 40px;
+      background-color: white;
+      border-radius: 25px;
+      margin-top: -200px;
+      margin-left: -90px;
+    }
+    .rectanglee p {
+      text-align: center;
+      color: black;
+    }
+    .star-iconn {
+      color: gold;
+      font-size: 24px;
+    }
+    .keranjangg {
+      background-color:orange; /* Warna latar belakang */
+      width: 15%;
+      color: white; /* Warna ikon */
+      border-radius: 700%; /* Membuat latar belakang berbentuk lingkaran */
+      padding: 5px; /* Padding */
+      font-size: 20px; /* Ukuran font */
+      text-align: center;
+      margin-left: 240px;
+      margin-top: -60px;
+    }
+  }
